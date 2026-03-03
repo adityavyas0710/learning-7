@@ -1,6 +1,6 @@
-# NestJS + TypeORM Example
+# NestJS + TypeORM Advanced Example
 
-A minimal NestJS project with TypeORM entities, relations, and migrations.
+A complete NestJS project with TypeORM entities, relations, migrations, dynamic modules, and webhooks.
 
 ## Database Schema
 
@@ -43,3 +43,12 @@ npm run migration:run
 # Revert last migration
 npm run migration:revert
 ```
+
+## Advanced Features
+
+See [ADVANCED.md](./ADVANCED.md) for detailed documentation on:
+
+- Dynamic Modules (Webhook, Cache, Config, Logger)
+- Webhook System with HMAC signature verification
+- Event subscription and emission
+- Module configuration patterns
